@@ -15,5 +15,7 @@ require 'pry'
   # }
   
 def remove_strawberry(contacts)
-contacts.each {|k,v| 
+contacts["Freddy Mercury"].each do |k,v| 
+  
+end
 end
