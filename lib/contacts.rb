@@ -20,7 +20,7 @@ contacts.each do |person,data|
     if attribute == :favorite_ice_cream_flavors
       value.each do |flavor|
         if flavor == "strawberry"
-          flavor.
+          flavor.shift
       end
   end
 end
